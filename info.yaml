@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    347342975551930964        # If using wokwi, set this to your project's ID
+  wokwi_id:    347594509754827347        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -17,7 +17,7 @@ documentation:
   author:       "Luis Ardila"      # Your name
   discord:      "leardilap"      # Your discord handle
   title:        "LUTRAM"      # Project title
-  description:  "LUTRAM with 4 bit address and 8 bit output preloaded with a binary to 7 segments decoder"      # Short description of what your project does
+  description:  "LUTRAM with 4 bit address and 8 bit output preloaded with a binary to 7 segments decoder, sadly it was too big for 0-F, so now it is 0-9?"      # Short description of what your project does
   how_it_works: "uses the address bits to pull from memory the value to be displayed on the 7 segments, content of the memory can be updated via a clock and data pins, reset button will revert to default info, you would need to issue one clock cycle to load the default info"      # Longer description of how the project works
   how_to_test:  "clk, data, rst, nc, address [4:0]"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  ""      # Describe any external hardware needed
